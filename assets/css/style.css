@@ -1,0 +1,243 @@
+/*$primary-font: $raleway;
+$primary-font-regular: $raleway-weight-regular;
+$primary-font-bold: $raleway-weight-bold;
+
+$secundary-font: $old;
+$secundary-font-regular: $old-weight-regular;
+$secundary-font-bold: $old-weight-bold;*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*a{
+    font-family: $raleway;
+    font-weight: $raleway-weight-bold;
+    font-size: $font-size-x-large ;
+}
+//typography logo
+h2{
+   font-family: $old;
+   font-weight: $old-weight-regular;
+   font-size: $font-size-x-large;
+}
+
+h1{
+    font-family: $old;
+    font-weight: $old-weight-bold;
+    font-size: $font-size-xxx-large;
+    color: $smoky-black;
+    text-transform:uppercase;
+}
+p{
+    font-family: $raleway;
+    font-weight: $raleway-weight-regular;
+    font-size: $font-size-small;
+    color: $smoky-black;
+    line-height: 25px;
+}
+h3{
+    font-family: $old;
+    font-weight: $old-weight-bold;
+    font-size: $font-size-x-large;
+}*/
+a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+h2 {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: 20px;
+  }
+}
+
+h1 {
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #0c0910;
+  text-transform: uppercase;
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
+}
+@media (min-width: 768px) {
+  p {
+    font-size: 14px;
+  }
+}
+
+h3 {
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  h3 {
+    font-size: 30px;
+  }
+}
+
+body {
+  height: 100vh;
+}
+
+/*.hero-section__container{
+
+        width: 50%;
+      }
+
+.hero-section__main-content {
+        height: 500px;
+        padding: 2rem 6rem;
+
+
+.hero-section__button {
+          padding-top: 16px;
+        }
+}
+
+.hero-section__image {
+        width: 50%;
+        height: 350px;
+        background-image: url(../../img/imagen1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }*/
+.hero-section__container {
+  height: 100%;
+}
+.hero-section__container .hero-section__main-content {
+  padding: 2rem;
+}
+.hero-section__container .hero-section__button {
+  padding-top: 16px;
+}
+
+.hero-section__newsletter {
+  background-color: #0c0910;
+  color: white;
+  padding-left: 2rem;
+  height: 170px;
+}
+.hero-section__newsletter__texto {
+  color: white;
+}
+.hero-section__newsletter .hero-section__placeholder {
+  width: 13rem;
+  font-size: 12px;
+}
+
+.hero-section__image {
+  background-image: url(../img/imagen1.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  max-height: 50vh;
+}
+@media (min-width: 768px) {
+  .hero-section__image {
+    max-height: 100%;
+  }
+}
+
+.navigation {
+  height: 5.5rem;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.navigation__logo {
+  background-color: #0c0910;
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  padding: 1rem 1.3rem;
+  display: flex;
+}
+.navigation__container {
+  float: right;
+  padding: 1.2rem;
+  position: relative;
+  margin-right: 2rem;
+}
+.navigation__item {
+  display: inline-block;
+}
+.navigation__link {
+  text-decoration: none;
+  margin: 1.5rem;
+  color: #0c0910;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 42% 43% 15%;
+  height: 100%;
+  align-content: center;
+}
+@media (min-width: 768px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+  }
+}
+
+.item {
+  grid-template-columns: 1;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+@media (min-width: 768px) {
+  .item {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+}
+
+.item-1 {
+  grid-column: 1;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  text-align: justify;
+}
+@media (min-width: 768px) {
+  .item-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+}
+
+.item-2 {
+  grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+@media (min-width: 768px) {
+  .item-2 {
+    grid-column: 2/3;
+    grid-row: 1/4;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

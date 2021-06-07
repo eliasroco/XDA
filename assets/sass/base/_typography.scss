@@ -1,0 +1,79 @@
+//This file you will create your rule of typographys inside of the project
+//typography link
+/*a{
+    font-family: $raleway;
+    font-weight: $raleway-weight-bold;
+    font-size: $font-size-x-large ;
+}
+//typography logo
+h2{
+   font-family: $old;
+   font-weight: $old-weight-regular;
+   font-size: $font-size-x-large;
+}
+
+h1{
+    font-family: $old;
+    font-weight: $old-weight-bold;
+    font-size: $font-size-xxx-large;
+    color: $smoky-black;
+    text-transform:uppercase;
+}
+p{
+    font-family: $raleway;
+    font-weight: $raleway-weight-regular;
+    font-size: $font-size-small;
+    color: $smoky-black;
+    line-height: 25px;
+}
+h3{
+    font-family: $old;
+    font-weight: $old-weight-bold;
+    font-size: $font-size-x-large;
+}*/
+//This file you will create your rule of typographys inside of the project
+//typography link
+a{
+    font-family: $raleway;
+    font-weight: $raleway-weight-bold;
+    font-size: $font-size-x-large ;
+}
+//typography logo
+h2{
+   font-family: $old;
+   font-weight: $old-weight-regular;
+   font-size: $font-size-large;
+   @media (min-width:$tablet_view){
+    font-size: $font-size-x-large;
+}
+}
+
+h1{
+    font-family: $old;
+    font-weight: $old-weight-bold;
+    font-size: $font-size-xx-large;
+    color: $smoky-black;
+    text-transform:uppercase;
+    @media (min-width:$tablet_view){
+        font-size: $font-size-xxx-large;
+    }
+
+}
+p{
+    font-family: $raleway;
+    font-weight: $raleway-weight-regular;
+    font-size: $font-size-x-small;
+    line-height: 25px;
+
+    @media (min-width:$tablet_view){
+        font-size: $font-size-small;
+    }
+}
+h3{
+    font-family: $old;
+    font-weight: $old-weight-bold;
+    font-size: $font-size-x-large;
+    @media (min-width:$tablet_view){
+        font-size: $font-size-xx-large;
+    }
+}

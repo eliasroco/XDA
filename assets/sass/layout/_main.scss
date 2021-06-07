@@ -1,0 +1,59 @@
+//This file is for create your style with relation on space of main
+/*.hero-section__container{
+
+        width: 50%;
+      }
+      
+.hero-section__main-content {
+        height: 500px;
+        padding: 2rem 6rem;
+      
+      
+.hero-section__button {
+          padding-top: 16px;
+        }
+}
+     
+.hero-section__image {
+        width: 50%;
+        height: 350px;
+        background-image: url(../../img/imagen1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }*/
+//This file is for create your style with relation on space of main
+.hero-section__container {
+  height: 100%;
+  .hero-section__main-content {
+    padding: 2rem;
+  }
+  .hero-section__button {
+    padding-top: 16px;
+  }
+}
+.hero-section__newsletter {
+  background-color: $smoky-black;
+  color: $white;
+  padding-left: 2rem;
+  height: 170px;
+  &__texto {
+    color: $white;
+  }
+  .hero-section__placeholder {
+    width: 13rem;
+    font-size: 12px;
+  }
+}
+.hero-section__image {
+  background-image: url(../img/imagen1.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  // width: 50%;
+  // height: 700px;
+  max-height: 50vh;
+  @media (min-width: $tablet_view) {
+    max-height: 100%;
+  }
+}
